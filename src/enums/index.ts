@@ -1,0 +1,251 @@
+export enum UserIntensity {
+    AGENT_K = 'AGENT_K',
+    ENTREPRENEUR = 'ENTREPRENEUR',
+  }
+
+  export enum identificationStateEnum {
+    OCR = 'OCR',
+    LIVENESS = 'LIVENESS',
+    FACE = 'FACE',
+    REJECTED = 'REJECTED',
+  }
+
+  export enum operationAreaRole {
+    BACKOFFICE = 'BACKOFFICE',
+    CLIENT = 'CLIENT',
+    ENTREPRENEUR = 'ENTREPRENEUR',
+    PARTNER = 'PARTNER',
+    SECURITY = 'SECURITY',
+  }
+
+  export enum operationAreaRoleSaas {
+    BACKOFFICE = 'BACKOFFICE',
+    CLIENT = 'CLIENT'
+  }
+
+  export enum permissionAuthorityTO {
+    DELETE = 'DELETE',
+    READ = 'READ',
+    WRITE = 'WRITE',
+    MODIFY = 'MODIFY',
+  }
+
+  export enum domainEnum {
+    ALL = 'ALL',
+    AUTHORIZATION = 'AUTHORIZATION',
+    AUTHORIZATION_QUESTION = 'AUTHORIZATION_QUESTION',
+    BANK_NOMENCLATURE = 'BANK_NOMENCLATURE',
+    COMMENT = 'COMMENT',
+    COMMISSION = 'COMMISSION',
+    COMMISSION_AGENT = 'COMMISSION_AGENT',
+    COMMISSION_CAMPAIGN = 'COMMISSION_CAMPAIGN',
+    COMPANY_ADMIN = 'COMPANY_ADMIN',
+    COMPANY_BACKOFFICE = 'COMPANY_BACKOFFICE',
+    COMPANY_CLIENT = 'COMPANY_CLIENT',
+    CONFIGURATION = 'CONFIGURATION',
+    EXTERNAL_INFO = 'EXTERNAL_INFO',
+    IDENTIFICATION = 'IDENTIFICATION',
+    INDICATIVE_OFFER = 'INDICATIVE_OFFER',
+    INTERVIEW = 'INTERVIEW',
+    LOG = 'LOG',
+    OFFER = 'OFFER',
+    OFFER_CLIENT = 'OFFER_CLIENT',
+    OFFER_INSTALLMENT = 'OFFER_INSTALLMENT',
+    ORGANIZATION = 'ORGANIZATION',
+    PARTNER_BANK = 'PARTNER_BANK',
+    PROPERTY = 'PROPERTY',
+    REPUTATION = 'REPUTATION',
+    ROLES = 'ROLES',
+    SCHEDULED_TASK = 'SCHEDULED_TASK',
+    STORAGE = 'STORAGE',
+    USER = 'USER',
+    USER_ADMIN = 'USER_ADMIN',
+    WHATSAPP = 'WHATSAPP',
+  }
+
+  export enum creditApplicationFlowUserGuideTO {
+    CONTRACTED = 'CONTRACTED',
+    DEFAULT = 'DEFAULT',
+    INDICATIVES = 'INDICATIVES',
+    OFFERS = 'OFFERS',
+    PROGRESS = 'PROGRESS',
+  }
+
+  export enum sectorCnaeTO {
+    AGRICULTURAL = 'AGRICULTURAL',
+    COMMERCE = 'COMMERCE',
+    INDUSTRY = 'INDUSTRY',
+    SERVICES = 'SERVICES'
+  }
+
+  export enum CompanyOperationStatus {
+    ADDED = 'ADDED',
+    UPDATED = 'UPDATED',
+  }
+
+  export enum directoryType {
+    ARCHIVED_DOCUMENTS = 'ARCHIVED_DOCUMENTS',
+    BALANCETE = 'BALANCETE',
+    BANK = 'BANK',
+    CASH_U_CERTIFICATE = 'CASH_U_CERTIFICATE',
+    CND = 'CND',
+    COMMENT = 'COMMENT',
+    CREDIT_INFORMATION = 'CREDIT_INFORMATION',
+    GUARANTEE_PROPERTY = 'GUARANTEE_PROPERTY',
+    IRPF = 'IRPF',
+    IRPF_RECEIPT = 'IRPF_RECEIPT',
+    NFE_DUPLICITY = 'NFE_DUPLICITY',
+    NOTE_FISCAL = 'NOTE_FISCAL',
+    OPEN_DEBTS = 'OPEN_DEBTS',
+    PAYMENT_TICKET = 'PAYMENT_TICKET',
+    REGISTRATION_FORM = 'REGISTRATION_FORM',
+    SIGNED_CONTRACT = 'SIGNED_CONTRACT',
+    SIMPLIFIED_CERTIFICATION = 'SIMPLIFIED_CERTIFICATION',
+    USER_IMAGE = 'USER_IMAGE'
+  }
+
+  export enum DocumentStateEnum {
+    PENDING = 'PENDING',
+    ANALYSIS = 'ANALYSIS',
+    APPROVED = 'APPROVED',
+    REJECTED = 'REJECTED',
+}
+
+export enum companyClosingPropensityEnum {
+  HIGH = 'HIGH',
+  LOW = 'LOW',
+  MEDIUM = 'MEDIUM',
+  VERY_HIGH = 'VERY_HIGH',
+  VERY_LOW = 'VERY_LOW',
+}
+
+export enum companySizeEnum {
+  BIGGER = 'BIGGER',
+  EPP = 'EPP',
+  ME = 'ME',
+}
+
+export enum registrationSituationCompanyMainInfoTO {
+  ACTIVE = 'ACTIVE',
+  CLOSED = 'CLOSED',
+  INAPT = 'INAPT',
+  NULL = 'NULL',
+  SUSPENDED = 'SUSPENDED',
+}
+
+export enum statusBankOperationTO {
+  ACTIVE = 'ACTIVE',
+  LIQUIDATED = 'LIQUIDATED',
+  OTHER = 'OTHER',
+}
+
+export enum typeCriCraDebentureTO {
+  CRA = 'CRA',
+  CRI = 'CRI',
+  DEBENTURE = 'DEBENTURE',
+}
+
+export enum typeScoreAnalysisTO {
+  ALL = 'ALL',
+  BALANCE = 'BALANCE',
+  DEMOSTRATION = 'DEMOSTRATION',
+  HABITUALITY = 'HABITUALITY',
+  REGISTER = 'REGISTER',
+  STRENGTH = 'STRENGTH'
+}
+
+export enum typeDataLearn {
+  documents = 'documents',
+  bankOperations = 'bankOperations',
+  ibge = 'ibge',
+  physicalProduction = 'physicalProduction',
+  protests = 'protests',
+}
+
+export enum areaProtestAreaTO {
+  FINANCIAL_SEGMENT = 'FINANCIAL_SEGMENT',
+  OTHER = 'OTHER',
+  TAXES_PUBLIC = 'TAXES_PUBLIC',
+}
+
+export enum ownerTypePropertyGuarantee {
+  COMPANY = 'COMPANY',
+  PARTNER = 'PARTNER',
+}
+
+export enum typePropertyGuarantee {
+  PROPERTY = 'PROPERTY',
+  PROPERTY_RURAL = 'PROPERTY_RURAL',
+}
+
+export enum companyFilterStateType {
+  NOVA = 'NOVA',
+  INDICATIVE = 'INDICATIVE',
+  REQUESTED = 'REQUESTED',
+  PROGRESS = 'PROGRESS',
+  CONTRACTED = 'CONTRACTED'
+}
+
+export enum stateIndicativeOfferTO {
+  OFFER_REQUEST = 'OFFER_REQUEST',
+  SELECTED = 'SELECTED',
+  WITHOUT_OFFER = 'WITHOUT_OFFER',
+  WITH_OFFER = 'WITH_OFFER',
+}
+
+export enum stateOfferTO {
+  ACCEPTED = 'ACCEPTED',
+  ANALYSIS = 'ANALYSIS',
+  CONTRACT_SIGNED = 'CONTRACT_SIGNED',
+  INIT = 'INIT',
+  IN_CONTRACT = 'IN_CONTRACT',
+  READY = 'READY',
+  REJECTED = 'REJECTED',
+  WITH_OFFER = 'WITH_OFFER',
+}
+
+export enum typeCommissionInstallmentTO {
+  AMORTIZATION = 'AMORTIZATION',
+  DISBURSEMENT = 'DISBURSEMENT',
+  LIQUIDATION = 'LIQUIDATION',
+}
+
+export enum commissionCampaignAttributeAttributeType {
+  CONTRACT_DATE = 'CONTRACT_DATE',
+  OPERATION_VALE = 'OPERATION_VALE',
+  PRODUCT = 'PRODUCT'
+}
+
+export enum commentAreaEnum {
+  BACKOFFICE = 'BACKOFFICE',
+  CHAT = 'CHAT',
+  CLIENT = 'CLIENT',
+}
+
+export enum learningSessionEnum {
+  BILLING = 'BILLING',
+  CASH_CONVERSION = 'CASH_CONVERSION',
+  CASH_FLOW = 'CASH_FLOW',
+  CHAT = 'CHAT',
+  CNAE = 'CNAE',
+  CORPORATE = 'CORPORATE',
+  CRI_CRA_DEBENTURE = 'CRI_CRA_DEBENTURE',
+  DATA = 'DATA',
+  DATA_PARTNER = 'DATA_PARTNER',
+  DATA_SPOUSE = 'DATA_SPOUSE',
+  FISCAL = 'FISCAL',
+  FUNCTIONARY = 'FUNCTIONARY',
+  HORIZONTAL_ANALYSIS = 'HORIZONTAL_ANALYSIS',
+  HORIZONTAL_VERTICAL_ANALYSIS = 'HORIZONTAL_VERTICAL_ANALYSIS',
+  INDICATIVE_OFFER = 'INDICATIVE_OFFER',
+  LEGAL = 'LEGAL',
+  OFFER = 'OFFER',
+  OTHERS_ANALYSIS = 'OTHERS_ANALYSIS',
+  PARTNER = 'PARTNER',
+  PROPERTIES = 'PROPERTIES',
+  PROPERTIES_COMPANY = 'PROPERTIES_COMPANY',
+  PROTEST = 'PROTEST',
+  RELATIONS = 'RELATIONS',
+  SANCTIONS_RESTRICTIONS = 'SANCTIONS_RESTRICTIONS',
+  VERTICAL_ANALYSIS = 'VERTICAL_ANALYSIS',
+}
